@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.C7hkbLDc.js";const _=JSON.parse('{"title":"Agilebot SDK","description":"","frontmatter":{"layout":"home","title":"Agilebot SDK"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"};function n(r,i,s,c,d,l){return a(),t("div")}const m=e(o,[["render",n]]);export{_ as __pageData,m as default};
