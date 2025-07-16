@@ -1,0 +1,87 @@
+# Agilebot Robot SDK
+
+> 捷勃特机器人 SDK 说明书
+
+## Table of Contents
+
+### Python SDK
+
+- [序章](/zh/1-python/0-prologue.md)
+- [1 简介与部署](/zh/1-python/1-intro.md)
+- [2 名词解释](/zh/1-python/2-glossary.md)
+- [3 数据结构](/zh/1-python/3-struct.md)
+- [4 方法与示例](/zh/1-python/4-methods.md)
+- [捷勃特机器人 Python SDK 更新说明](/zh/1-python/AgileBot_Robot_Python_SDK_ChangeLog.md)
+
+#### 序章
+
+- [版本记录](/zh/1-python/0-prologue/0.1-version.md)
+- [机器人版本兼容性](/zh/1-python/0-prologue/0.2-compatibility.md)
+
+#### 1 简介与部署
+
+- [1.1 机器人系统](/zh/1-python/1-intro/1.1-robot-system.md)
+- [1.2 操作权限](/zh/1-python/1-intro/1.2-permission.md)
+- [1.3 环境要求](/zh/1-python/1-intro/1.3-envronment.md)
+- [1.4 安装](/zh/1-python/1-intro/1.4-install.md)
+
+#### 4 方法与示例
+
+- [4.1 机器人基础操作](/zh/1-python/4-methods/4.1-arm.md)
+- [4.2 机器人运动控制和状态](/zh/1-python/4-methods/4.2-motion.md)
+- [4.3 机器人程序操作类](/zh/1-python/4-methods/4.3-execution.md)
+- [4.4 程序信息读写](/zh/1-python/4-methods/4.4-program_pose.md)
+- [4.5 IO信号](/zh/1-python/4-methods/4.5-signals.md)
+- [4.6 寄存器信息](/zh/1-python/4-methods/4.6-register.md)
+- [4.7 轨迹控制](/zh/1-python/4-methods/4.7-trajectory.md)
+- [4.8 报警信息](/zh/1-python/4-methods/4.8-alarm.md)
+- [4.9 文件服务类](/zh/1-python/4-methods/4.9-file_manager.md)
+- [4.10 坐标系](/zh/1-python/4-methods/4.10-coordinate_system.md)
+- [4.11 Modbus 相关功能](/zh/1-python/4-methods/4.11-modbus.md)
+- [4.12 BasScript脚本程序类](/zh/1-python/4-methods/4.12-bas_script.md)
+- [4.13 机器人示教运动](/zh/1-python/4-methods/4.13-jogging.md)
+- [4.14 订阅机器人状态](/zh/1-python/4-methods/4.14-hardware_state.md)
+- [4.15 插件管理](/zh/1-python/4-methods/4.15-extension.md)
+
+### C# SDK
+
+- [序章](/zh/2-csharp/0-prologue.md)
+- [1 简介与部署](/zh/2-csharp/1-intro.md)
+- [2 名词解释](/zh/2-csharp/2-glossary.md)
+- [3 数据结构](/zh/2-csharp/3-struct.md)
+- [4 方法与示例](/zh/2-csharp/4-methods.md)
+- [捷勃特机器人 C# SDK 更新说明](/zh/2-csharp/AgileBot_Robot_CSharp_SDK_ChangeLog.md)
+
+#### 序章
+
+- [版本记录](/zh/2-csharp/0-prologue/0.1-version.md)
+- [机器人版本兼容性](/zh/2-csharp/0-prologue/0.2-compatibility.md)
+
+#### 1 简介与部署
+
+- [1.1 操作权限](/zh/2-csharp/1-intro/1.1-permission.md)
+- [1.2 环境要求](/zh/2-csharp/1-intro/1.2-envronment.md)
+- [1.3 安装](/zh/2-csharp/1-intro/1.3-install.md)
+
+#### 4 方法与示例
+
+- [4.1 机器人基础操作](/zh/2-csharp/4-methods/4.1-arm.md)
+- [4.2 机器人运动控制和状态](/zh/2-csharp/4-methods/4.2-motion.md)
+- [4.3 机器人操作类](/zh/2-csharp/4-methods/4.3-execution.md)
+- [4.4 程序信息读写](/zh/2-csharp/4-methods/4.4-programPoses.md)
+- [4.5  IO信号](/zh/2-csharp/4-methods/4.5-signals.md)
+- [4.6 寄存器信息](/zh/2-csharp/4-methods/4.6-registers.md)
+- [4.7 轨迹控制](/zh/2-csharp/4-methods/4.7-trajectory.md)
+- [4.8 报警信息](/zh/2-csharp/4-methods/4.8-alarm.md)
+- [4.9 文件服务类](/zh/2-csharp/4-methods/4.9-fileManager.md)
+- [4.10 BasScript脚本程序类](/zh/2-csharp/4-methods/4.10-basScript.md)
+- [4.11 坐标系类](/zh/2-csharp/4-methods/4.11-coordinateSystem.md)
+- [4.12 机器人示教运动](/zh/2-csharp/4-methods/4.12-jogging.md)
+
+### 参考
+
+- [AI编程支持](/zh/3-reference/3.1-ai-coding.md)
+
+### Other
+
+- [Agilebot Robot SDK](/zh.md)
