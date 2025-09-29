@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文档已迁移</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .notice {
+      background-color: #f0f4ff;
+      border-left: 4px solid #4285f4;
+      padding: 20px 24px;
+      border-radius: 8px;
+      max-width: 600px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .notice strong {
+      color: #1a73e8;
+    }
+
+    .notice a {
+      color: #1a73e8;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    .notice p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      margin-right: 6px;
+    }
+
+    .countdown {
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+    }
+
+    .countdown-number {
+      font-weight: bold;
+      color: #1a73e8;
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">
+    <p><span class="icon">📘</span>文档已迁移至 <strong>开发者中心</strong>，请访问
+      <a href="https://dev.sh-agilebot.com/docs/sdk/" target="_blank" rel="noopener">
+        https://dev.sh-agilebot.com/docs/sdk/
+      </a>
+      查看最新文档。
+    </p>
+    <div class="countdown">
+      <span class="countdown-number" id="countdown">3</span> 秒后自动跳转
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var countdown = 3;
+      var countdownElement = document.getElementById('countdown');
+
+      var timer = setInterval(function() {
+        countdown--;
+        countdownElement.textContent = countdown;
+
+        if (countdown <= 0) {
+          clearInterval(timer);
+          window.location.href = 'https://dev.sh-agilebot.com/docs/sdk/';
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>
