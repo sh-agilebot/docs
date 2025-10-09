@@ -1,0 +1,13 @@
+version: 2
+
+build:
+  os: ubuntu-lts-latest
+  tools:
+    nodejs: 'latest'
+  apt_packages:
+    - rsync
+  jobs:
+    build:
+      html:
+        - mkdir -p $READTHEDOCS_OUTPUT/html/
+        - rsync -av --exclude="_readthedocs" ./ $READTHEDOCS_OUTPUT/html/
